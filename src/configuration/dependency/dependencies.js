@@ -1,0 +1,1 @@
+import 'configuration/event/tap/apple/ios/react-tap-event-plugin';

@@ -4,12 +4,12 @@ import Header from 'component/shared/structure/header/Header';
 import Main from 'component/shared/structure/main/Main';
 import Footer from 'component/shared/structure/footer/Footer';
 
-export class Landing extends React.Component {
+export class DashBoard extends React.Component {
   render() {
     return <div>
       <Header>Header</Header>
       <Main>
-        <h1>Landing - Public</h1>
+        <h1>DashBoard - Administration</h1>
       </Main>
       <Footer>Footer</Footer>
     </div>;
