@@ -23,6 +23,21 @@ export class DashBoard extends React.Component {
         <br />
         <br />
         <RaisedButton label="Full width" fullWidth={true} />
+        <hr />
+        <h1 className="mdc-typography--display1">Hello, World!</h1>
+        <button type="button" className="mdc-button mdc-button--raised mdc-button--primary">
+          Press Me
+        </button>
+        <hr />
+        <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Button
+        </button>
+        <button className="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+          <i className="material-icons">add</i>
+        </button>
+        <hr />
+        <hr />
+        <a className="waves-effect waves-light btn"><i className="material-icons left">cloud</i>button</a>
       </Main>
       <Footer>Footer</Footer>
     </div>;
