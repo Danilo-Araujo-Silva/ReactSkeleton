@@ -13,13 +13,18 @@
     "sanitize.css": "^5.0.0"
   },
   "devDependencies": {
+    "node-sass": "^4.5.0",
+    "npm-run-all": "^4.0.2",
     "react-scripts": "^0.9.4"
   },
   "scripts": {
-    "start": "NODE_PATH=src react-scripts start",
-    "build": "NODE_PATH=src react-scripts build",
-    "test": "NODE_PATH=src react-scripts test --env=jsdom",
-    "eject": "NODE_PATH=src react-scripts eject"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build-css": "node-sass public/ -o public/ --include-path public",
+    "watch-css": "npm run build-css && node-sass public/ -o public/ --include-path public --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "NODE_PATH=src npm-run-all -p watch-css start-js",
+    "build": "NODE_PATH=src npm run build-css && react-scripts build"
   },
   "repository": {
     "type": "git",
