@@ -1,10 +1,10 @@
 import React from 'react';
 import {Router as ReactRouter, Route, IndexRoute, Redirect, browserHistory} from 'react-router';
 
-import {DashBoard as AdministrationDashBoard} from 'component/area/administration/DashBoard';
-import {DashBoard as DevelopmentDashBoard} from 'component/area/development/DashBoard';
+import {DashBoard as AdministrationDashBoard} from 'component/area/administration/dashboard/DashBoard';
+import {DashBoard as DevelopmentDashBoard} from 'component/area/development/dashboard/DashBoard';
 import {Landing as PublicLanding} from 'component/area/public/landing/Landing';
-import {DashBoard as UserDashBoard} from 'component/area/user/DashBoard';
+import {DashBoard as UserDashBoard} from 'component/area/user/dashboard/DashBoard';
 import {NotFound as SharedNotFound} from 'component/shared/error/not-found/NotFound';
 
 export default class Router extends React.Component {
@@ -19,7 +19,10 @@ export default class Router extends React.Component {
         <Route path="development" component={DevelopmentDashBoard}>
           <Redirect from="dashboard" to="/development" />
         </Route>
-        <Redirect from="public/:path" to="/:path" />
+        <Route path="public">
+          <Route path="/landing" component={PublicLanding} />
+          <Redirect from="/public/:path" to="/:path" />
+        </Route>
         <Route path="user" component={UserDashBoard}>
           <Redirect from="dashboard" to="/user" />
         </Route>
