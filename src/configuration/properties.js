@@ -40,5 +40,3 @@ const properties = {
 };
 
 export default properties;
-
-console.log(properties);
