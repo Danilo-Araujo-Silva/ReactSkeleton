@@ -20,13 +20,38 @@ export class DashBoard extends React.Component {
       <Header>Header</Header>
       <Main>
         <h1>DashBoard - Development</h1>
-        {/*properties.variables.dependencies.ui['ant-design'].enabled ? <AntDesign /> : false*/}
-        {properties.variables.dependencies.ui['material-components-web'].enabled ? <MaterialComponentsWeb /> : false}
-        {properties.variables.dependencies.ui['material-design-lite'].enabled ? <MaterialDesignLite /> : false}
-        {properties.variables.dependencies.ui['material-ui'].enabled ? <MaterialUI /> : false}
-        {properties.variables.dependencies.ui['materialize-css'].enabled ? <MaterializeCSS /> : false}
-        {/*properties.variables.dependencies.ui['react-toolbox'].enabled ? <ReactToolbox /> : false*/}
-        {properties.variables.dependencies.ui['semantic-ui'].enabled ? <SemanticUI /> : false}
+        {
+          properties.variables.dependencies.ui['material-components-web'].enabled
+          && <MaterialComponentsWeb />
+        }
+        {/*
+          properties.variables.dependencies.ui['ant-design'].enabled
+          && <AntDesign /> : false
+        */}
+        {
+          properties.variables.dependencies.ui['material-components-web'].enabled
+          && <MaterialComponentsWeb />
+        }
+        {
+          properties.variables.dependencies.ui['material-design-lite'].enabled
+          && <MaterialDesignLite />
+        }
+        {
+          properties.variables.dependencies.ui['material-ui'].enabled
+          && <MaterialUI />
+        }
+        {
+          properties.variables.dependencies.ui['materialize-css'].enabled
+          && <MaterializeCSS />
+        }
+        {/*
+          properties.variables.dependencies.ui['react-toolbox'].enabled
+          && <ReactToolbox /> : false
+        */}
+        {
+          properties.variables.dependencies.ui['semantic-ui'].enabled
+          && <SemanticUI />
+        }
       </Main>
       <Footer>Footer</Footer>
     </div>;
