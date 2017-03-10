@@ -20,10 +20,6 @@ export class DashBoard extends React.Component {
       <Header>Header</Header>
       <Main>
         <h1>DashBoard - Development</h1>
-        {
-          properties.variables.dependencies.ui['material-components-web'].enabled
-          && <MaterialComponentsWeb />
-        }
         {/*
           properties.variables.dependencies.ui['ant-design'].enabled
           && <AntDesign /> : false
