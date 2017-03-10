@@ -1,0 +1,56 @@
+@import '../theme/palette';
+@import '../theme/themes';
+@import '../theme/theme';
+
+$application: (
+  variables: (
+    dependencies: null,
+    palette: null,
+    themes: null,
+    theme: null,
+  )
+);
+
+$application: map-deep-set($application, "variables" "palette", $palette);
+$palette: null;
+
+$application: map-deep-set($application, "variables" "themes", $themes);
+$themes: null;
+
+$application: map-deep-set($application, "variables" "theme", $theme);
+$theme: null;
+
+// Condional import is not available in Sass for now.
+// $dependencies: (
+//   font-family: (
+//     material-icons (
+//       enabled: true,
+//     ),
+//     roboto: (
+//       enabled: true,
+//     )
+//   ),
+//   ui: (
+//     ant-design: (
+//       enabled: false,
+//     ),
+//     material-components-web: (
+//       enabled: false,
+//     ),
+//     material-design-lite: (
+//       enabled: false,
+//     ),
+//     materialize-css: (
+//       enabled: false,
+//     ),
+//     react-toolbox: (
+//       enabled: false,
+//     ),
+//     semantic-ui: (
+//       enabled: false,
+//     ),
+//     vue: (
+//       enabled: false,
+//     )
+//   )
+// );

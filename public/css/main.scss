@@ -1,1 +1,7 @@
-@import 'dependency/dependencies';
+@import 'configuration/functions/functions.main';
+@import 'configuration/mixins/mixins.main';
+@import 'configuration/variables/variables.main';
+
+@import 'configuration/dependency/dependencies.main';
+
+// @import 'configuration/theme/theme.main';
