@@ -13,6 +13,7 @@ import MaterialUI from './ui/material-ui/MaterialUI';
 import MaterializeCSS from './ui/materialize-css/MaterializeCSS';
 // import ReactToolbox from './ui/react-toolbox/ReactToolbox'
 import SemanticUI from './ui/semantic-ui/SemanticUI';
+import ReactFlexboxGrid from './utility/grid/ReactFlexboxGrid';
 
 export class DashBoard extends React.Component {
   render() {
@@ -20,6 +21,7 @@ export class DashBoard extends React.Component {
       <Header>Header</Header>
       <Main>
         <h1>DashBoard - Development</h1>
+        <ReactFlexboxGrid />
         {
           properties.variables.dependencies.ui['ant-design'].enabled
           && <AntDesign />
