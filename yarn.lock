@@ -2465,6 +2465,10 @@ eslint-module-utils@^1.0.0:
     debug "2.2.0"
     pkg-dir "^1.0.0"
 
+eslint-plugin-babel@^4.0.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-babel/-/eslint-plugin-babel-4.1.1.tgz#ef285c87039b67beb3bbd227f5b0eed4fb376b87"
+
 eslint-plugin-flowtype@2.21.0:
   version "2.21.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.21.0.tgz#a47e85abcdd181d37a336054bd552149ae387d9c"
@@ -3402,6 +3406,14 @@ gulp-replace@^0.5.4:
     readable-stream "^2.0.1"
     replacestream "^4.0.0"
 
+gulp-rimraf@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/gulp-rimraf/-/gulp-rimraf-0.2.1.tgz#9f1783adc5d4890d8a1bedf834bc989e2a565030"
+  dependencies:
+    gulp-util "^3.0.7"
+    rimraf "^2.5.4"
+    through2 "^2.0.1"
+
 gulp-rtlcss@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/gulp-rtlcss/-/gulp-rtlcss-1.0.0.tgz#c2f20642879248863e2ca0a78eacf7faf1911895"
@@ -4049,6 +4061,10 @@ is-svg@^2.0.0:
 is-symbol@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-symbol/-/is-symbol-1.0.1.tgz#3cc59f00025194b6ab2e38dbae6689256b660572"
+
+is-there@^4.0.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/is-there/-/is-there-4.4.0.tgz#348d70ffb6746e4b72cff661b01a210410c7a190"
 
 is-typedarray@~1.0.0:
   version "1.0.0"
@@ -5380,6 +5396,13 @@ node-pre-gyp@^0.6.29:
     semver "~5.3.0"
     tar "~2.2.1"
     tar-pack "~3.3.0"
+
+node-sass-json-importer@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/node-sass-json-importer/-/node-sass-json-importer-3.0.1.tgz#62861dbfce3a094a4511f4dc72b255714d731c9f"
+  dependencies:
+    is-there "^4.0.0"
+    lodash "^3.10.1"
 
 node-sass-utils@^1.1.2:
   version "1.1.2"
@@ -6904,10 +6927,6 @@ react-slick@~0.14.2:
     react-responsive-mixin "^0.4.0"
     slick-carousel "^1.6.0"
 
-react-style-proptype@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/react-style-proptype/-/react-style-proptype-2.0.1.tgz#6b29b9bceb11d6be279ffee3debe1fe1edbee97b"
-
 react-tap-event-plugin@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/react-tap-event-plugin/-/react-tap-event-plugin-2.0.1.tgz#316beb3bc6556e29ec869a7293e89c826a9074d2"
@@ -6930,16 +6949,17 @@ react-toolbox-themr@^1.0.2:
     ramda "^0.23.0"
     yargs "^6.6.0"
 
-react-toolbox@^2.0.0-beta.7:
-  version "2.0.0-beta.7"
-  resolved "https://registry.yarnpkg.com/react-toolbox/-/react-toolbox-2.0.0-beta.7.tgz#6697eee94b3bc9fb87f69580761fd73a49ec9ad0"
+react-toolbox@2.0.0-beta.6:
+  version "2.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/react-toolbox/-/react-toolbox-2.0.0-beta.6.tgz#9f76c7a1e58a485effecfcf1b4ff62b6691c9081"
   dependencies:
     classnames "^2.2.5"
     core-js "^2.4.0"
+    eslint-plugin-babel "^4.0.1"
+    gulp-rimraf "^0.2.1"
     ramda "^0.23.0"
     react-addons-css-transition-group "^15.4.2"
     react-css-themr "^1.7.2"
-    react-style-proptype "^2.0.0"
 
 react@^15.4.2:
   version "15.4.2"
@@ -7319,7 +7339,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rimraf@2, rimraf@^2.2.8, rimraf@^2.4.3, rimraf@^2.4.4:
+rimraf@2, rimraf@^2.2.8, rimraf@^2.4.3, rimraf@^2.4.4, rimraf@^2.5.4:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
   dependencies:
