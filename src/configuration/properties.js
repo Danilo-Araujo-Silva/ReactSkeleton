@@ -20,13 +20,13 @@ const properties = {
           enabled: true,
         },
         'material-ui': {
-          enabled: true,
+          enabled: false,
         },
         'materialize-css': {
           enabled: true,
         },
         'react-toolbox': {
-          enabled: true,
+          enabled: false,
         },
         'semantic-ui': {
           enabled: true,
