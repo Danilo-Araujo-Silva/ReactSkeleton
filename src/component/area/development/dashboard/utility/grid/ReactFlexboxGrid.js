@@ -6,10 +6,10 @@ class ReactFlexBoxGrid extends React.Component {
     return (
       <Grid fluid>
         <Row>
-          <Col xs={6} md={3}>
+          <Col xs={6} md={6}>
             Hello, world!
           </Col>
-          <Col xs={6} md={3}>
+          <Col xs={6} md={6}>
             Hello, world!
           </Col>
         </Row>

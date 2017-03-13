@@ -20,7 +20,7 @@ const properties = {
           enabled: true,
         },
         'material-ui': {
-          enabled: false,
+          enabled: true,
         },
         'materialize-css': {
           enabled: true,
