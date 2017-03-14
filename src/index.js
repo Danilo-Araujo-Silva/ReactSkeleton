@@ -1,9 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import properties from 'model/shared/configuration/properties/properties';
 
-import Root from 'component/root/Root';
-
-ReactDOM.render(
-  <Root />,
-  document.getElementById('root')
-);
+if (properties.variables.platform.react.enabled) {
+  require('controller/react/root.controller');
+}
