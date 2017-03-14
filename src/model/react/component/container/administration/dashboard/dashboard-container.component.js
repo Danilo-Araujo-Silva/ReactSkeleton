@@ -7,11 +7,11 @@ import Footer from '../shared/structure/footer/footer.component';
 export class DashBoardContainer extends React.Component {
   render() {
     return <div>
-      <Header>Header</Header>
+      <Header></Header>
       <Main>
         <h1>DashBoard - User</h1>
       </Main>
-      <Footer>Footer</Footer>
+      <Footer></Footer>
     </div>;
   }
 };

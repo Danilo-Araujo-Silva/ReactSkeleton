@@ -39,7 +39,8 @@ export default class Router extends React.Component {
             <Redirect from="dashboard" to="/development" />
           </Route>
           <Route path="public">
-            <Redirect from="/public/:path" to="/:path" />
+            <IndexRoute component={PublicErrorNotFound} />
+            <Redirect from=":path" to="/:path" />
           </Route>
           <Route path="user">
             <IndexRoute component={UserDashBoard} />
