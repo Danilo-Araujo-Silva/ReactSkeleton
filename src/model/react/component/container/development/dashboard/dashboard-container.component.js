@@ -2,9 +2,9 @@ import React from 'react';
 
 import properties from 'model/shared/configuration/properties/properties';
 
-import Header from '../../../shared/structure/development/header/header.component';
-import Main from '../../../shared/structure/development/main/main.component';
-import Footer from '../../../shared/structure/development/footer/footer.component';
+import Header from '../shared/structure/header/header.component';
+import Main from '../shared/structure/main/main.component';
+import Footer from '../shared/structure/footer/footer.component';
 
 // import AntDesign from './ui/ant-design/ant-design.component';
 import MaterialComponentsWeb from './ui/material-components-web/material-components-web.component';

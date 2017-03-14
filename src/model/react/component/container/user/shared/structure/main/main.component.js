@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GenericMain from '../../generic/main/main.component';
+import GenericMain from '../../../../../shared/structure/generic/main/main.component';
 import './main.component.css';
 
 export default class Footer extends React.Component {

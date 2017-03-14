@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GenericHeader from '../../generic/header/header.component';
+import GenericHeader from '../../../../../shared/structure/generic/header/header.component';
 import './header.component.css';
 
 export default class Header extends React.Component {
