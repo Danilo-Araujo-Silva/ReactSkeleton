@@ -2,60 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b6d244-cee0-4bea-b7b0-5bc0da4e42f7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/area/public/careers/Careers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/area/public/help/Help.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/area/public/sitemap/Sitemap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/component/area/public/terms_and_privacy/TermsAndPrivacy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/dependency/dependencies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/event/tap/apple/ios/react-tap-event-plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/ui/ant-design/ant-design.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/ui/material-components-web/material-components-web.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/ui/material-design-lite/material-design-lite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/ui/material-ui/material-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/ui/materialize-css/materialize-css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/ui/react-toolbox/react-toolbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/ui/semantic-ui/semantic-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/ui/vue/vue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/configuration/utility/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/administration/dashboard/DashBoard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/development/dashboard/DashBoard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/development/dashboard/ui/ant-design/AntDesign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/development/dashboard/ui/material-components-web/MaterialComponentsWeb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/development/dashboard/ui/material-design-lite/MaterialDesignLite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/development/dashboard/ui/material-ui/MaterialUI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/development/dashboard/ui/materialize-css/MaterializeCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/development/dashboard/ui/react-toolbox/ReactToolbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/development/dashboard/ui/semantic-ui/SemanticUI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/development/dashboard/ui/vue/Vue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/development/dashboard/utility/grid/ReactFlexboxGrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/public/help/Help.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/public/landing/Landing.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/public/landing/Landing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/public/landing/Landing.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/user/dashboard/DashBoard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/user/login/Login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/user/login/PasswordRecovery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/user/login/SignUp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/area/user/settings/Settings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/root/Root.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/router/Router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/error/not-found/NotFound.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/structure/footer/Footer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/structure/footer/Footer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/structure/header/Header.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/structure/header/Header.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/structure/main/Main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/structure/main/Main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/theme/material-ui/ThemeProvider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/theme/material-ui/theme.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/theme/material-ui/themes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/theme/material-ui/themes/indigo-pink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/theme/material-ui/themes/material-ui-dark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/react/shared/theme/material-ui/themes/material-ui-light.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/react/component/container/public/user/login/login-container.component.js" afterPath="$PROJECT_DIR$/src/model/react/component/container/public/user/login/login-container.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/react/component/container/public/user/password-recovery/password-recovery-container.component.js" afterPath="$PROJECT_DIR$/src/model/react/component/container/public/user/password-recovery/password-recovery-container.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/react/component/container/public/user/sign-up/sign-up-container.component.js" afterPath="$PROJECT_DIR$/src/model/react/component/container/public/user/sign-up/sign-up-container.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/react/component/route/router.component.js" afterPath="$PROJECT_DIR$/src/model/react/component/route/router.component.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,24 +23,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="router.component.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="router.component.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/react/component/route/router.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state relative-caret-position="364">
+              <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard-container.component.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/react/component/container/administration/dashboard/dashboard-container.component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="84" lean-forward="false" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="84" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -130,9 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/model/react/configuration/theme/material-ui/theme.js" />
-        <option value="$PROJECT_DIR$/src/model/react/component/container/public/shared/structure/footer/footer.component.js" />
-        <option value="$PROJECT_DIR$/src/model/react/component/container/public/shared/structure/header/header.component.js" />
         <option value="$PROJECT_DIR$/src/model/react/component/container/public/shared/structure/main/main.component.js" />
         <option value="$PROJECT_DIR$/src/model/react/component/shared/structure/generic/footer/footer.component.js" />
         <option value="$PROJECT_DIR$/src/model/react/component/shared/structure/generic/header/header.component.js" />
@@ -179,8 +116,11 @@
         <option value="$PROJECT_DIR$/src/model/react/component/container/user/login/password-recovery/password-recovery-container.component.js" />
         <option value="$PROJECT_DIR$/src/model/react/component/container/user/settings/settings.component.js" />
         <option value="$PROJECT_DIR$/src/model/react/component/container/user/settings/settings-container.component.js" />
-        <option value="$PROJECT_DIR$/src/model/react/component/route/router.component.js" />
         <option value="$PROJECT_DIR$/src/model/react/component/container/administration/dashboard/dashboard-container.component.js" />
+        <option value="$PROJECT_DIR$/src/model/react/component/container/public/user/login/login-container.component.js" />
+        <option value="$PROJECT_DIR$/src/model/react/component/container/public/user/password-recovery/password-recovery-container.component.js" />
+        <option value="$PROJECT_DIR$/src/model/react/component/container/public/user/sign-up/sign-up-container.component.js" />
+        <option value="$PROJECT_DIR$/src/model/react/component/route/router.component.js" />
       </list>
     </option>
   </component>
@@ -398,11 +338,133 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="administration" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sign-up" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="container" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="password-recovery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="container" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="container" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,12 +600,12 @@
       <workItem from="1489360099945" duration="5895000" />
       <workItem from="1489437133625" duration="5113000" />
       <workItem from="1489494174522" duration="11242000" />
-      <workItem from="1489511871789" duration="7701000" />
+      <workItem from="1489511871789" duration="8478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32737000" />
+    <option name="totallyTimeSpent" value="33514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-3" width="1370" height="734" extended-state="6" />
@@ -927,40 +989,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/public/user/sign-up/sign-up-container.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/react/component/container/user/settings/settings-container.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/public/user/password-recovery/password-recovery-container.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/public/user/login/login-container.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1013,21 +1045,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/component/route/router.component.js">
+    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/administration/dashboard/dashboard-container.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/administration/dashboard/dashboard-container.component.js">
+    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/public/user/sign-up/sign-up-container.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="84" lean-forward="false" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="84" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/public/user/password-recovery/password-recovery-container.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/public/user/login/login-container.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/component/route/router.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

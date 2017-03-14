@@ -24,6 +24,14 @@ export default class Router extends React.Component {
       <ReactRouter history={browserHistory}>
         <Route path="/">
           <IndexRoute component={PublicLanding} />
+          <Route path="about" component={PublicAbout} />
+          <Route path="careers" component={PublicCareers} />
+          <Route path="error/not-found" component={PublicErrorNotFound} />
+          <Route path="help" component={PublicHelp} />
+          <Route path="landing" component={PublicLanding} />
+          <Route path="sitemap" component={PublicSitemap} />\
+          <Route path="terms-and-privacy" component={PublicTermsAndPrivacy} />
+
           <Route path="administration" component={AdministrationDashBoard}>
             <Redirect from="dashboard" to="/administration" />
           </Route>
@@ -31,19 +39,13 @@ export default class Router extends React.Component {
             <Redirect from="dashboard" to="/development" />
           </Route>
           <Route path="public">
-            <Route path="/about" component={PublicAbout} />
-            <Route path="/careers" component={PublicCareers} />
-            <Route path="/error/not-found" component={PublicErrorNotFound} />
-            <Route path="/help" component={PublicHelp} />
-            <Route path="/landing" component={PublicLanding} />
-            <Route path="/sitemap" component={PublicSitemap} />\
-            <Route path="/terms-and-privacy" component={PublicTermsAndPrivacy} />
-            <Route path="/login" component={PublicUserLogin} />
-            <Route path="/password-recovery" component={PublicUserPasswordRecovery} />
-            <Route path="/sign-up" component={PublicUserSignUp} />
             <Redirect from="/public/:path" to="/:path" />
           </Route>
-          <Route path="user" component={UserDashBoard}>
+          <Route path="user">
+            <IndexRoute component={UserDashBoard} />
+            <Route path="login" component={PublicUserLogin} />
+            <Route path="password-recovery" component={PublicUserPasswordRecovery} />
+            <Route path="sign-up" component={PublicUserSignUp} />
             <Redirect from="dashboard" to="/user" />
           </Route>
         </Route>

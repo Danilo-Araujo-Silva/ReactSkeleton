@@ -9,7 +9,7 @@ export class PasswordRecoveryContainer extends React.Component {
     return <div>
       <Header></Header>
       <Main>
-        <h1>Password Recovery - User</h1>
+        <h1>Password Recovery - Public</h1>
       </Main>
       <Footer></Footer>
     </div>;

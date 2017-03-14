@@ -9,7 +9,7 @@ export class LoginContainer extends React.Component {
     return <div>
       <Header></Header>
       <Main>
-        <h1>Login - User</h1>
+        <h1>Login - Public</h1>
       </Main>
       <Footer></Footer>
     </div>;

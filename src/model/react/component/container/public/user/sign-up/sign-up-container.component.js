@@ -9,7 +9,7 @@ export class SignUpContainer extends React.Component {
     return <div>
       <Header></Header>
       <Main>
-        <h1>SignUp - User</h1>
+        <h1>SignUp - Public</h1>
       </Main>
       <Footer></Footer>
     </div>;
