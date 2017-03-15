@@ -11,9 +11,10 @@ import {NotFoundContainer as PublicErrorNotFound} from '../container/public/erro
 import {HelpContainer as PublicHelp} from '../container/public/help/help-container.component';
 import {Landing as PublicLanding} from '../container/public/landing/landing-container.component';
 import {SitemapContainer as PublicSitemap} from '../container/public/sitemap/sitemap-container.component';
-import {TermsAndPrivacyContainer as PublicTermsAndPrivacy} from '../container/public/terms-and-privacy/terms-and-privacy-container.component';
+import {TermsOfServiceContainer as PublicTermsOfService} from '../container/public/terms-of-service/terms-of-service-container.component';
 import {LoginContainer as PublicUserLogin} from '../container/public/user/login/login-container.component';
 import {PasswordRecoveryContainer as PublicUserPasswordRecovery} from '../container/public/user/password-recovery/password-recovery-container.component';
+import {PrivacyPolicyContainer as PublicPrivacyPolicy} from '../container/public/privacy-policy/privacy-policy-container.component';
 import {SignUpContainer as PublicUserSignUp} from '../container/public/user/sign-up/sign-up-container.component';
 
 import {DashBoardContainer as UserDashBoard} from '../container/user/dashboard/dashboard-container.component';
@@ -30,7 +31,8 @@ export default class Router extends React.Component {
           <Route path="help" component={PublicHelp} />
           <Route path="landing" component={PublicLanding} />
           <Route path="sitemap" component={PublicSitemap} />\
-          <Route path="terms-and-privacy" component={PublicTermsAndPrivacy} />
+          <Route path="terms-of-service" component={PublicTermsOfService} />
+          <Route path="privacy-policy" component={PublicPrivacyPolicy} />
 
           <Route path="administration" component={AdministrationDashBoard}>
             <Redirect from="dashboard" to="/administration" />
