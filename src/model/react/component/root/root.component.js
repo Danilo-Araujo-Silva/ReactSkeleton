@@ -6,12 +6,24 @@ import /*properties from*/ '../../../shared/configuration/properties/properties'
 import '../../../shared/configuration/dependency/dependencies';
 import MaterialUIThemeProvider from '../theme/material-ui/theme-provider.component';
 import Router from '../route/router.component';
-import initializeStore from '../../../shared/configuration/state/redux/store/initializeStore';
-import {loadUsers} from '../../../shared/configuration/state/redux/action/usersActions';
+import {getAllProducts} from '../container/development/user/actions';
+import reducer from '../container/development/user/reducers'
+import {createStore, applyMiddleware} from 'redux';
+import thunk from 'redux-thunk';
+import createLogger from 'redux-logger';
 
-const store = initializeStore();
 
-store.dispatch(loadUsers());
+const middleware = [ thunk ];
+if (process.env.NODE_ENV !== 'production') {
+  middleware.push(createLogger());
+}
+
+const store = createStore(
+  reducer,
+  applyMiddleware(...middleware)
+)
+
+store.dispatch(getAllProducts())
 
 const Root = () => (
   <Provider store={store}>

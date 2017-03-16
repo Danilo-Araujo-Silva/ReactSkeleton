@@ -1,35 +1,53 @@
-import {browserHistory} from 'react-router';
+import { combineReducers } from 'redux';
 
-import * as actions from '../action/actions';
-import initialState from '../state/initialState';
+import { RECEIVE_USERS } from '../action/actions';
 
-export default function usersReducer(state = initialState.users, action) {
-  switch(action.type) {
-    case actions.LOAD_USERS_SUCCESS:
-      return Object.assign([], state, action.users);
-    case actions.CREATE_USER_SUCCESS:
-      browserHistory.push(`/users/${action.user.id}`);
-
-      return [
-        ...state.filter(user => user.id !== action.user.id),
-        Object.assign({}, action.user)
-      ];
-    case actions.UPDATE_USER_SUCCESS:
-      return [
-        ...state.filter(user => user.id !== action.user.id),
-        Object.assign({}, action.user)
-      ];
-    case actions.DELETE_USER_SUCCESS:
-      const nextState = Object.assign([], state);
-
-      const indexToDelete = state.findIndex(user => {return user.id === action.user.id});
-
-      nextState.splice(indexToDelete, 1);
-
-      browserHistory.push('/users');
-      
-      return nextState;
+const users = (state, action) => {
+  switch (action.type) {
     default:
-      return state;
+      return state
   }
+}
+
+const byId = (state = {}, action) => {
+  switch (action.type) {
+    case RECEIVE_USERS:
+      return {
+        ...state,
+        ...action.users.reduce((obj, user) => {
+          obj[user.id] = user
+          return obj
+        }, {})
+      }
+    default:
+      const { userId } = action
+      if (userId) {
+        return {
+          ...state,
+          [userId]: users(state[userId], action)
+        }
+      }
+      return state
+  }
+}
+
+const visibleIds = (state = [], action) => {
+  switch (action.type) {
+    case RECEIVE_USERS:
+      return action.users.map(user => user.id)
+    default:
+      return state
+  }
+}
+
+export default combineReducers({
+  byId,
+  visibleIds
+})
+
+export const getUser = (state, id) =>
+  state.byId[id]
+
+export const getVisibleUsers = state => {
+  state.visibleIds.map(id => getUser(state, id))
 }

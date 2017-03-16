@@ -15,15 +15,16 @@ import MaterializeCSS from './ui/materialize-css/materialize-css.component';
 import SemanticUI from './ui/semantic-ui/semantic-ui.component';
 // import ReactFlexboxGrid from './utility/grid/react-flexbox-grid.component';
 
-import UsersContainer from '../user/UsersContainer';
+//import UsersContainer from '../user/UsersContainer';
+import ProductsContainer from '../user/containers/ProductsContainer';
 
 export class DashBoardContainer extends React.Component {
   render() {
     return <div>
       <Header></Header>
       <Main>
+        <ProductsContainer />
         <h1>DashBoard - Development</h1>
-        <UsersContainer />
         {/*<ReactFlexboxGrid />*/}
         {/*
           properties.variables.dependencies.ui['ant-design'].enabled
