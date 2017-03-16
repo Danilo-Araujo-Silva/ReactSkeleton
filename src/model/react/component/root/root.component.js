@@ -6,9 +6,7 @@ import /*properties from*/ '../../../shared/configuration/properties/properties'
 import '../../../shared/configuration/dependency/dependencies';
 import MaterialUIThemeProvider from '../theme/material-ui/theme-provider.component';
 import Router from '../route/router.component';
-import initializeStore from '../../configuration/state/redux/store/initialize-store';
-
-const store = initializeStore();
+import store from '../../configuration/state/redux/store';
 
 const Root = () => (
   <Provider store={store}>

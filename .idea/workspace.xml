@@ -2,46 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b6d244-cee0-4bea-b7b0-5bc0da4e42f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/users-reducers.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/common/CheckBox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/common/Header.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/common/TextInput.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/User.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/UserItem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/UsersContainer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/UsersList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/actions/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/api/products.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/api/shop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/components/Cart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/components/Cart.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/components/Product.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/components/Product.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/components/ProductItem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/components/ProductItem.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/components/ProductsList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/components/ProductsList.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/constants/ActionTypes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/containers/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/containers/CartContainer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/containers/ProductsContainer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/reducers/cart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/reducers/cart.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/reducers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/reducers/index.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/reducers/products.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/user/reducers/products.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/shared/configuration/state/redux/reducer/users.reducer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/model/shared/configuration/state/redux/state/initialState.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/shared/configuration/state/redux/action/actions.js" afterPath="$PROJECT_DIR$/src/model/react/configuration/state/redux/action/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/shared/configuration/state/redux/action/usersActions.js" afterPath="$PROJECT_DIR$/src/model/react/configuration/state/redux/action/usersActions.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/shared/configuration/state/redux/reducer/index.js" afterPath="$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/shared/configuration/state/redux/store/initializeStore.js" afterPath="$PROJECT_DIR$/src/model/react/configuration/state/redux/store/initialize-store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/react/configuration/state/redux/store/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/react/component/container/development/dashboard/dashboard-container.component.js" afterPath="$PROJECT_DIR$/src/model/react/component/container/development/dashboard/dashboard-container.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/react/component/root/root.component.js" afterPath="$PROJECT_DIR$/src/model/react/component/root/root.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/shared/configuration/properties/properties.js" afterPath="$PROJECT_DIR$/src/model/shared/configuration/properties/properties.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/react/configuration/state/redux/action/index.js" afterPath="$PROJECT_DIR$/src/model/react/configuration/state/redux/action/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/users-reducers.js" afterPath="$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/users-reducers.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,8 +28,8 @@
       <file leaf-file-name="root.component.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/react/component/root/root.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#130#211#0" expanded="true" />
@@ -72,34 +38,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard-container.component.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dashboard-container.component.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/react/component/container/development/dashboard/dashboard-container.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
-              <folding />
+            <state relative-caret-position="90">
+              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initialize-store.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/store/initialize-store.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users-reducers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users-reducers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/users-reducers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+            <state relative-caret-position="281">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/action/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users-container.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/react/component/container/development/dashboard/user/users-container.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,9 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/model/react/component/container/public/shared/structure/footer/footer.component.js" />
-        <option value="$PROJECT_DIR$/src/model/react/component/container/public/shared/structure/header/header.component.js" />
-        <option value="$PROJECT_DIR$/src/model/react/component/container/public/shared/structure/main/main.component.js" />
         <option value="$PROJECT_DIR$/src/model/react/component/container/user/shared/structure/footer/footer.component.js" />
         <option value="$PROJECT_DIR$/src/model/react/component/container/user/shared/structure/header/header.component.js" />
         <option value="$PROJECT_DIR$/src/model/react/component/container/user/shared/structure/main/main.component.js" />
@@ -221,18 +196,21 @@
         <option value="$PROJECT_DIR$/src/model/react/component/container/development/user/components/Product.js" />
         <option value="$PROJECT_DIR$/src/model/react/component/container/development/user/components/ProductItem.js" />
         <option value="$PROJECT_DIR$/src/model/shared/service/users.service.js" />
-        <option value="$PROJECT_DIR$/src/model/react/component/container/development/dashboard/dashboard-container.component.js" />
         <option value="$PROJECT_DIR$/src/model/react/configuration/state/redux/store/initialize-store.js" />
         <option value="$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/users.reducer.js" />
-        <option value="$PROJECT_DIR$/src/model/react/configuration/state/redux/action/index.js" />
         <option value="$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/user/user.reducer.js" />
         <option value="$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/user/index.js" />
         <option value="$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/user/users.reducer.js" />
         <option value="$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/index.js" />
-        <option value="$PROJECT_DIR$/src/model/react/component/root/root.component.js" />
         <option value="$PROJECT_DIR$/src/model/shared/configuration/properties/properties.js" />
         <option value="$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/util.js" />
+        <option value="$PROJECT_DIR$/src/model/react/component/container/development/dashboard/user/UsersContainer.js" />
+        <option value="$PROJECT_DIR$/src/model/react/component/container/development/dashboard/user/users-container.component.js" />
+        <option value="$PROJECT_DIR$/src/model/react/configuration/state/redux/action/index.js" />
         <option value="$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/users-reducers.js" />
+        <option value="$PROJECT_DIR$/src/model/react/component/root/root.component.js" />
+        <option value="$PROJECT_DIR$/src/model/react/configuration/state/redux/store/index.js" />
+        <option value="$PROJECT_DIR$/src/model/react/component/container/development/dashboard/dashboard-container.component.js" />
       </list>
     </option>
   </component>
@@ -718,6 +696,48 @@
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="container" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactSkeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -847,12 +867,12 @@
       <workItem from="1489582653399" duration="1046000" />
       <workItem from="1489586424962" duration="7446000" />
       <workItem from="1489609174702" duration="13484000" />
-      <workItem from="1489661749690" duration="7938000" />
+      <workItem from="1489661749690" duration="9550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69077000" />
+    <option name="totallyTimeSpent" value="70689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1364" height="727" extended-state="4" />
@@ -890,38 +910,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/public/privacy-policy/privacy-policy-container.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/public/terms-of-service/terms-of-service-container.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/development/dashboard/api/users.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/administration/dashboard/dashboard-container.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-flexbox-grid/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1112,14 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/development/dashboard/dashboard-container.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/bin/react-scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
@@ -1168,22 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/action/usersActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/action/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/user/user.reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1210,25 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/store/initialize-store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/react/component/root/root.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#130#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/shared/configuration/properties/properties.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -1245,12 +1190,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/development/dashboard/ui/ant-design/ant-design.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/development/dashboard/ui/material-ui/material-ui.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/development/dashboard/user/users-container.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/action/usersActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/action/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/reducer/users-reducers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        <state relative-caret-position="281">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/store/initialize-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/configuration/state/redux/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/component/root/root.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#130#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/react/component/container/development/dashboard/dashboard-container.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

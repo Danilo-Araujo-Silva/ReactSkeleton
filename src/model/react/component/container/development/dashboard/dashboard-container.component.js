@@ -14,6 +14,7 @@ import MaterializeCSS from './ui/materialize-css/materialize-css.component';
 // import ReactToolbox from './ui/react-toolbox/react-toolbox.component'
 import SemanticUI from './ui/semantic-ui/semantic-ui.component';
 // import ReactFlexboxGrid from './utility/grid/react-flexbox-grid.component';
+import UsersContainer from './user/users-container.component';
 
 export class DashBoardContainer extends React.Component {
   render() {
@@ -21,6 +22,7 @@ export class DashBoardContainer extends React.Component {
       <Header></Header>
       <Main>
         <h1>DashBoard - Development</h1>
+        <UsersContainer />
         {/*<ReactFlexboxGrid />*/}
         {/*
           properties.variables.dependencies.ui['ant-design'].enabled

@@ -1,14 +1,7 @@
 import {combineReducers} from 'redux';
 
 import {
-  userCreated,
-  userRead,
-  userUpdated,
-  userDeleted,
-  usersCreated,
-  usersRead,
-  usersUpdated,
-  usersDeleted
+  usersReadSucceeded
 } from '../action';
 
 let initialState = {
@@ -20,14 +13,6 @@ const userReducer = (state = initialState.user, action) => {
   console.log('userReducer', 'state', state, 'action', action);
 
   switch (action.type) {
-    case userCreated:
-      return null;
-    case userRead:
-      return null;
-    case userUpdated:
-      return null;
-    case userDeleted:
-      return null;
     default:
       return state;
   }
@@ -37,18 +22,12 @@ const usersReducer = (state = initialState.users, action) => {
   console.log('usersReducer', 'state', state, 'action', action);
 
   switch (action.type) {
-    case usersCreated:
-      return null;
-    case usersRead:
+    case usersReadSucceeded:
       return {
         ...[],
         ...state,
         ...action.users
       };
-    case usersUpdated:
-      return null;
-    case usersDeleted:
-      return null;
     default:
       return state;
   }
