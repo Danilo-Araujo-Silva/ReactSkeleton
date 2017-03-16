@@ -1,22 +1,11 @@
-import _products from '../../react/component/container/development/user/api/products';
-
 class UsersService {
-
-  static getProducts(cb) {
+  static getAll(callBack) {
     return fetch('http://localhost:10001/users').then(response => {
       response.json().then(
-        r => {
-          return cb(r);
+        result => {
+          return callBack(result);
         }
       );
-    }).catch(error => {
-      return error;
-    });
-  }
-
-  static getAll() {
-    return fetch('http://localhost:10001/users').then(response => {
-      return response.json();
     }).catch(error => {
       return error;
     });
