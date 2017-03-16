@@ -1,4 +1,4 @@
-import * as types from './actions';
+import * as types from './index';
 import UsersService from '../../../../service/users.service';
 
 const receiveUsers = users => ({

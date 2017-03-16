@@ -37,13 +37,13 @@ const properties = {
       }
     },
     environment: {
-      dev: {
-        enabled: true,
-      },
-      hmg: {
+      development: {
         enabled: false,
       },
-      prd: {
+      homologation: {
+        enabled: false,
+      },
+      production: {
         enabled: false
       },
       test: {
@@ -63,5 +63,20 @@ const properties = {
     }
   },
 };
+
+if (
+  !process.env.NODE_ENV
+  || process.env.NODE_ENV === 'development'
+) {
+  properties.variables.environment.development = true;
+} else if (process.env.NODE_ENV === 'homologation') {
+  properties.variables.environment.homologation = true;
+} else if (process.env.NODE_ENV === 'production') {
+  properties.variables.environment.production = true;
+} else if (process.env.NODE_ENV === 'test') {
+  properties.variables.environment.test = true;
+} else {
+  throw new Error(`Unrecognized environment. process.env.NODE_ENV = ${process.env.NODE_ENV}.`);
+}
 
 export default properties;
