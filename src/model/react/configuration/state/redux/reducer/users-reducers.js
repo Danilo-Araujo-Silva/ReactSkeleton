@@ -9,8 +9,12 @@ let initialState = {
   users: []
 };
 
-const userReducer = (state = initialState.user, action) => {
+export const userReducer = (state = initialState.user, action) => {
   console.log('userReducer', 'state', state, 'action', action);
+
+  if (!action) {
+    return state;
+  }
 
   switch (action.type) {
     default:
@@ -18,8 +22,12 @@ const userReducer = (state = initialState.user, action) => {
   }
 };
 
-const usersReducer = (state = initialState.users, action) => {
+export const usersReducer = (state = initialState.users, action) => {
   console.log('usersReducer', 'state', state, 'action', action);
+
+  if (!action) {
+    return state;
+  }
 
   switch (action.type) {
     case usersReadSucceeded:
@@ -39,3 +47,4 @@ const usersReducers = combineReducers({
 });
 
 export default usersReducers;
+

@@ -1,18 +1,30 @@
 import React from 'react';
+import {connect} from 'react-redux';
 
-import store from '../../../../../configuration/state/redux/store';
-import {getAll} from '../../../../../configuration/state/redux/action/users-actions';
+import {usersReducer} from '../../../../../configuration/state/redux/reducer/users-reducers';
 
-store.dispatch(getAll());
+import Users from './users.component';
+import UserItem from './user-item.component';
 
-const UsersContainer = () => {
+const UsersContainer = ({users}) => {
   return <div>
     <h2>Users - API</h2>
-    <div>
-
-    </div>
-    <br/>
+    <Users>
+      {console.log('users', users)}
+      {users.map(user =>
+        <UserItem
+          key={user.id}
+          user={user}
+        />
+      )}
+    </Users>
   </div>;
 };
 
-export default UsersContainer;
+const mapStateToProps = state => ({
+  users: usersReducer(state.users)
+});
+
+export default connect(
+  mapStateToProps
+)(UsersContainer);
